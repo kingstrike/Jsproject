@@ -1,4 +1,4 @@
-# 💻웹서비스(웹 어플리케이션) 제작
+# 웹서비스(웹 어플리케이션) 제작
     - 프런트단
         - 일반 클라이언트가 보는 화면
         - html : 화면의 뼈대, 콘텐츠 담당, (html 코더)
@@ -27,11 +27,12 @@
             - 언어 : python, 빅데이터, 머신러닝/딥러닝등의 예측모델등등 적절 
     - 데이터베이스
         - springboot <-> JPA(or ORM:느림) <-> Database(sql 데이터베이스 쿼리 언어->필요할대 조금씩)
-# 💻 교육 순서
+
+# 교육 순서
     - java -> javascripta
     /html/css -> reactjs/nodejs기반 -> springboot -> aws 배포 및 운영           image.pn
 
-# 💻 개발 환경 구축
+# 개발 환경 구축
     - IDE(개발 통합 환경) : vscode
     - 실행 환경 : node (https://nodejs.org/en/)
         -xx LTS 버전 다운로드
