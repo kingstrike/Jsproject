@@ -25,18 +25,19 @@ rv13.html
             }
             selHandler =  e => {
                 // 클릭하면 selHandler() 호출 -> 상태변수 select 값을 T->F, F->T 변경
-                this.setState({select:!this.state.select})
+                this.setState( { select: !this.state.select } )
             }
             render () {
-                // ○, ●  => 3할 연산자
-            //     let icon = 'o'
-            //     if (select)  {
-            //         icon = '●'
-            // }          
-                let icon = select ? '●' : 'o'
+                let { select } = this.state
+                // ○, ●  => 3항 연산자로 표현( 조건식의 결론이 값을 설정, 조건 결론이 2개인경우)
+                // let icon = '○'  
+                // if (select) {
+                //     icon = '●' 
+                // }
+                let icon = select ? '●' : '○'
                 return (
                     <div onClick={ this.selHandler }>
-                        {icon}  { this.props.name }
+                        { icon }  { this.props.name }
                     </div>          
                 )
             }
