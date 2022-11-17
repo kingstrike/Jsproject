@@ -1,4 +1,4 @@
-##Virtual DOM
+#Virtual DOM
     -DOM : Document Object Model
         -객체로 문서 구조를 표한하는 방법  직역 -> (문서 객체 모델)
             -Document : XML(데이터), HTMl(데이터,구조), ..(ML 마크업 언어)
@@ -11,7 +11,7 @@
     -VDOM을 직접 묘사하는 방식은 react 18부터는 미지원
 
 
-##기본 세팅
+#기본 세팅
 - <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
